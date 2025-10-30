@@ -1,0 +1,257 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 11,
+    "count": 11,
+    "limit": "500",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Green Chilli",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "8500",
+        "max_price": "9500",
+        "modal_price": "9000"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Potato",
+        "variety": "Local",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2200",
+        "max_price": "3000",
+        "modal_price": "2600"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Raddish",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2200",
+        "modal_price": "2100"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Squash(Chappal Kadoo)",
+        "variety": "Squash(Chappal Kadoo)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1200",
+        "max_price": "1400",
+        "modal_price": "1300"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "16000",
+        "max_price": "23000",
+        "modal_price": "19000"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Pumpkin",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2600",
+        "max_price": "2800",
+        "modal_price": "2700"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Turnip",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "3800"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Betal Leaves",
+        "variety": "Local",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "14000",
+        "max_price": "22000",
+        "modal_price": "18000"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Brinjal",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "3800"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Cauliflower",
+        "variety": "Local",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "4500",
+        "modal_price": "4300"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "South Garo Hills",
+        "market": "Baghmara",
+        "commodity": "Papaya",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "7000",
+        "modal_price": "6500"
+      }
+    ]
+  },
+  "expires_at": 1761834997
+}

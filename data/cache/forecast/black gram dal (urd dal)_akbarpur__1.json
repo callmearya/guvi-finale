@@ -1,0 +1,20 @@
+{
+  "value": {
+    "method": "fallback_baseline",
+    "points": [
+      {
+        "date": "2025-11-30",
+        "price": 10140.0,
+        "low": 9126.0,
+        "high": 11154.0
+      },
+      {
+        "date": "2025-12-30",
+        "price": 10140.0,
+        "low": 9126.0,
+        "high": 11154.0
+      }
+    ]
+  },
+  "expires_at": 1761877454
+}

@@ -1,0 +1,725 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 50,
+    "count": 50,
+    "limit": "300",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Maharashtra",
+        "district": "Pune",
+        "market": "Pune",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "1000",
+        "max_price": "4000",
+        "modal_price": "2500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Sholapur",
+        "market": "Solapur",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "1000",
+        "max_price": "4000",
+        "modal_price": "3500"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Ajmer",
+        "market": "Ajmer(F&V)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Large",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "7000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Dindigul",
+        "market": "Palani(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "5000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Karur",
+        "market": "Kulithalai(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4500",
+        "max_price": "5000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Sivaganga",
+        "market": "Tirupatthur(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5400",
+        "max_price": "6500",
+        "modal_price": "6500"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thirunelveli",
+        "market": "NGO Colony(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "6000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Virudhunagar",
+        "market": "Aruppukottai(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Navsari",
+        "market": "Chikhali",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Large",
+        "arrival_date": "30/10/2025",
+        "min_price": "4205",
+        "max_price": "6750",
+        "modal_price": "5477"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Porbandar",
+        "market": "Porbandar",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Large",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "3000",
+        "modal_price": "2500"
+      },
+      {
+        "state": "Haryana",
+        "district": "Panipat",
+        "market": "Panipat",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "3400",
+        "modal_price": "3200"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Chattrapati Sambhajinagar",
+        "market": "Chattrapati Sambhajinagar",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "1200",
+        "max_price": "2500",
+        "modal_price": "1850"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Ganganagar",
+        "market": "Sriganganagar (F&V)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "4300",
+        "max_price": "4700",
+        "modal_price": "4500"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jodhpur",
+        "market": "Jodhpur (F&V)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "5000",
+        "modal_price": "3500"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Sivaganga",
+        "market": "Devakottai (Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tuticorin",
+        "market": "Kovilpatti(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Haryana",
+        "district": "Sirsa",
+        "market": "Sirsa",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "7000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bangalore",
+        "market": "Binny Mill (F&V), Bangalore",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "3500",
+        "modal_price": "3000"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Indore",
+        "market": "Indore(F&V)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "1500",
+        "max_price": "3500",
+        "modal_price": "2500"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "market": "Mettupalayam(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5500",
+        "max_price": "6000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Erode",
+        "market": "Sathiyamagalam(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4500",
+        "max_price": "5000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Madurai",
+        "market": "Anaiyur(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "6000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Namakkal",
+        "market": "Paramathivelur(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Sivaganga",
+        "market": "Sivagangai (Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "6000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thirupur",
+        "market": "Dharapuram(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banaskanth",
+        "market": "Deesa(Deesa Veg Yard)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "10150",
+        "modal_price": "8575"
+      },
+      {
+        "state": "Haryana",
+        "district": "Faridabad",
+        "market": "Faridabad",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Large",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "4500",
+        "modal_price": "4250"
+      },
+      {
+        "state": "Haryana",
+        "district": "Hissar",
+        "market": "Hansi",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "5000",
+        "modal_price": "4500"
+      },
+      {
+        "state": "Haryana",
+        "district": "Kurukshetra",
+        "market": "Shahabad",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "7000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Mumbai",
+        "market": "Mumbai- Fruit Market",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "5000",
+        "modal_price": "4500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Pune",
+        "market": "Pune(Moshi)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "5000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Chengalpattu",
+        "market": "Nanganallur(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "8000",
+        "modal_price": "8000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Salem",
+        "market": "Thathakapatti(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4500",
+        "max_price": "5000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thiruvarur",
+        "market": "Mannargudi I(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "7000",
+        "modal_price": "7000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Virudhunagar",
+        "market": "Sivakasi(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "3000",
+        "modal_price": "3000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Virudhunagar",
+        "market": "Virudhunagar(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "3000",
+        "modal_price": "3000"
+      },
+      {
+        "state": "Kerala",
+        "district": "Malappuram",
+        "market": "Kottakkal",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Large",
+        "arrival_date": "30/10/2025",
+        "min_price": "3800",
+        "max_price": "4000",
+        "modal_price": "3900"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Amarawati",
+        "market": "Amrawati(Frui & Veg. Market)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "4000",
+        "modal_price": "3500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Sholapur",
+        "market": "Akluj",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "5000",
+        "modal_price": "4500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Thane",
+        "market": "Kalyan",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "2400",
+        "max_price": "3000",
+        "modal_price": "2750"
+      },
+      {
+        "state": "Punjab",
+        "district": "Jalandhar",
+        "market": "Jalandhar City(Jalandhar)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "5000",
+        "modal_price": "3000"
+      },
+      {
+        "state": "Punjab",
+        "district": "Ludhiana",
+        "market": "Ludhiana",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "7000",
+        "modal_price": "3000"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jaipur",
+        "market": "Jaipur (F&V)",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "1000",
+        "max_price": "7000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Erode",
+        "market": "Gobichettipalayam(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3800",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Karur",
+        "market": "Pallapatti (Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3600",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Nagapattinam",
+        "market": "Nagapattinam(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "4800",
+        "modal_price": "4800"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Namakkal",
+        "market": "Kumarapalayam(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thiruchirappalli",
+        "market": "Manapparai(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Virudhunagar",
+        "market": "Kariyapatti(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Virudhunagar",
+        "market": "Rajapalayam(Uzhavar Sandhai )",
+        "commodity": "Chikoos(Sapota)",
+        "variety": "Sapota",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "3600",
+        "modal_price": "3600"
+      }
+    ]
+  },
+  "expires_at": 1761835829
+}

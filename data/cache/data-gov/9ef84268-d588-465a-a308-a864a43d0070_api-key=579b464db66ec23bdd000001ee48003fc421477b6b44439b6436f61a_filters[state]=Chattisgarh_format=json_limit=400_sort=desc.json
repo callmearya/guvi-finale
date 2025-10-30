@@ -1,0 +1,773 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761825691,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T12:01:31Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 54,
+    "count": 54,
+    "limit": "400",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Chattisgarh",
+        "district": "Balod",
+        "market": "Dondilohara",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "I.R. 64",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1750",
+        "max_price": "1850",
+        "modal_price": "1800"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Balodabazar",
+        "market": "Kasdol",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2000",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Bilaspur",
+        "market": "Tiphra",
+        "commodity": "Onion",
+        "variety": "Local",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2400",
+        "max_price": "2600",
+        "modal_price": "2500"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Durg",
+        "market": "Durg",
+        "commodity": "Potato",
+        "variety": "Local",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1800",
+        "max_price": "2000",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kabirdham",
+        "market": "Pipriya",
+        "commodity": "Soyabean",
+        "variety": "Yellow",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "3500",
+        "modal_price": "3500"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Korba",
+        "market": "Katghora",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2000",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raigarh",
+        "market": "Sarangarh",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1600",
+        "max_price": "1600",
+        "modal_price": "1600"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Raipur",
+        "commodity": "Maize",
+        "variety": "Medium",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1751",
+        "max_price": "1751",
+        "modal_price": "1751"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Rajnandgaon",
+        "market": "Gandai",
+        "commodity": "Tomato",
+        "variety": "Deshi",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "3000",
+        "modal_price": "2500"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Balodabazar",
+        "market": "Balodabazar",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1920",
+        "max_price": "2000",
+        "modal_price": "1920"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Bilaspur",
+        "market": "Jairamnagar",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1850",
+        "max_price": "1850",
+        "modal_price": "1850"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Gariyaband",
+        "market": "Rajim",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1008",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1896",
+        "max_price": "1944",
+        "modal_price": "1910"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Jashpur",
+        "market": "Kotba",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1900",
+        "max_price": "1900",
+        "modal_price": "1900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kabirdham",
+        "market": "Kawardha",
+        "commodity": "Wheat",
+        "variety": "Deshi",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2411",
+        "max_price": "2411",
+        "modal_price": "2411"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Koria",
+        "market": "Manendragarh",
+        "commodity": "Sugarcane",
+        "variety": "Sugarcane",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "350",
+        "max_price": "350",
+        "modal_price": "350"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Mahasamund",
+        "market": "Sarayapali",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1765",
+        "max_price": "1825",
+        "modal_price": "1820"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Mungeli",
+        "market": "Lormi",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "1001",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1800",
+        "max_price": "1900",
+        "modal_price": "1900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Raipur",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1010",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1790",
+        "max_price": "1955",
+        "modal_price": "1932"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Balod",
+        "market": "Dondi",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1840",
+        "max_price": "1865",
+        "modal_price": "1851"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Balod",
+        "market": "Gurur",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "I.R. 64",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1850",
+        "max_price": "1950",
+        "modal_price": "1890"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Dantewada",
+        "market": "Gidam",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1600",
+        "max_price": "1800",
+        "modal_price": "1700"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Durg",
+        "market": "Durg",
+        "commodity": "Onion",
+        "variety": "Onion",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1000",
+        "max_price": "1200",
+        "modal_price": "1200"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Durg",
+        "market": "Durg",
+        "commodity": "Tomato",
+        "variety": "Local",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2200",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Gariyaband",
+        "market": "Rajim",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "Samba Masuri",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2100",
+        "max_price": "2250",
+        "modal_price": "2250"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kabirdham",
+        "market": "Biranpur kalan (Sahaspur Lohra)",
+        "commodity": "Soyabean",
+        "variety": "Yellow",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3900",
+        "max_price": "3900",
+        "modal_price": "3900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kabirdham",
+        "market": "Kawardha",
+        "commodity": "Bengal Gram(Gram)(Whole)",
+        "variety": "Kanta",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4434",
+        "max_price": "5275",
+        "modal_price": "4971"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Mahasamund",
+        "market": "Sakra",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1700",
+        "max_price": "1700",
+        "modal_price": "1700"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Abhanpur",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "I.R. 64",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2040",
+        "max_price": "2100",
+        "modal_price": "2081"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Rajnandgaon",
+        "market": "Gandai",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2000",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Jashpur",
+        "market": "Pathalgaon",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1900",
+        "max_price": "1900",
+        "modal_price": "1900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kabirdham",
+        "market": "Kawardha",
+        "commodity": "Arhar Dal(Tur Dal)",
+        "variety": "Medium",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6600",
+        "max_price": "6950",
+        "modal_price": "6800"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kanker",
+        "market": "Charama",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "I.R. 64",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1920",
+        "max_price": "1920",
+        "modal_price": "1920"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kanker",
+        "market": "Lakhanpuri",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "I.R. 64",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1950",
+        "max_price": "1950",
+        "modal_price": "1950"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Korba",
+        "market": "Katghora",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1010",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2000",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Mahasamund",
+        "market": "Pithoura",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1010",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2000",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Mahasamund",
+        "market": "Sarayapali",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1010",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1800",
+        "max_price": "1800",
+        "modal_price": "1800"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Mungeli",
+        "market": "Lormi",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "Sugandha",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1900",
+        "max_price": "1900",
+        "modal_price": "1900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raigarh",
+        "market": "Kedar",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "MTU-1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1600",
+        "max_price": "1600",
+        "modal_price": "1600"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Rajnandgaon",
+        "market": "Gandai",
+        "commodity": "Potato",
+        "variety": "Potato",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1800",
+        "max_price": "2200",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Rajnandgaon",
+        "market": "Kheragarh",
+        "commodity": "Soyabean",
+        "variety": "Soyabeen",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3300",
+        "max_price": "3500",
+        "modal_price": "3400"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Balod",
+        "market": "Balod",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "I.R.-64",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1820",
+        "max_price": "1876",
+        "modal_price": "1850"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Bilaspur",
+        "market": "Takhatpur",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1900",
+        "max_price": "1950",
+        "modal_price": "1900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Bilaspur",
+        "market": "Tiphra",
+        "commodity": "Potato",
+        "variety": "Local",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2200",
+        "max_price": "2500",
+        "modal_price": "2300"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Bilaspur",
+        "market": "Tiphra",
+        "commodity": "Tomato",
+        "variety": "Local",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2300",
+        "modal_price": "2200"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Janjgir",
+        "market": "Baradwar",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1700",
+        "max_price": "1700",
+        "modal_price": "1700"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kabirdham",
+        "market": "Kawardha",
+        "commodity": "Soyabean",
+        "variety": "Yellow",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2091",
+        "max_price": "2950",
+        "modal_price": "2550"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Kanker",
+        "market": "Narharpur",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "I.R. 64",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1900",
+        "max_price": "1900",
+        "modal_price": "1900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raigarh",
+        "market": "Salihabhata",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "1001",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1900",
+        "max_price": "1900",
+        "modal_price": "1900"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Raipur",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "D.B.",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1725",
+        "max_price": "1965",
+        "modal_price": "1953"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Raipur",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "HMT",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2000",
+        "modal_price": "2000"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Raipur",
+        "market": "Raipur",
+        "commodity": "Wheat",
+        "variety": "Deshi",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2025",
+        "max_price": "2025",
+        "modal_price": "2025"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Rajnandgaon",
+        "market": "Rajnandgaon",
+        "commodity": "Onion",
+        "variety": "Onion",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1300",
+        "max_price": "1500",
+        "modal_price": "1400"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Rajnandgaon",
+        "market": "Rajnandgaon",
+        "commodity": "Potato",
+        "variety": "Potato",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1300",
+        "max_price": "1500",
+        "modal_price": "1400"
+      },
+      {
+        "state": "Chattisgarh",
+        "district": "Rajnandgaon",
+        "market": "Rajnandgaon",
+        "commodity": "Tomato",
+        "variety": "Deshi",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2100",
+        "max_price": "2500",
+        "modal_price": "2300"
+      }
+    ]
+  },
+  "expires_at": 1761829982
+}

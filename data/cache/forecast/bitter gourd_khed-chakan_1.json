@@ -1,0 +1,14 @@
+{
+  "value": {
+    "method": "rolling_mean",
+    "points": [
+      {
+        "date": "2016-12-01",
+        "price": 2737.33,
+        "low": 2463.6,
+        "high": 3011.07
+      }
+    ]
+  },
+  "expires_at": 1761876631
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Agmarknet - Daily Market Prices",
+    "resource_id": "9ef84268-d588-465a-a308-a864a43d0070",
+    "department": "Directorate of Marketing & Inspection",
+    "description": "Daily arrivals and modal/min/max prices reported from 1000+ mandis across India.",
+    "update_frequency": "Daily",
+    "sample_filters": {
+      "state": "Maharashtra",
+      "commodity": "Onion"
+    }
+  },
+  {
+    "title": "e-NAM Live Trades Snapshot",
+    "resource_id": "0b1b6f7f-3d85-4f3a-8fd6-2b2d3c628d63",
+    "department": "Small Farmers Agribusiness Consortium",
+    "description": "Aggregated e-NAM bidding transactions and traded quantities across live mandis.",
+    "update_frequency": "Hourly",
+    "sample_filters": {
+      "state": "Madhya Pradesh",
+      "commodity": "Soyabean"
+    }
+  },
+  {
+    "title": "Farm Harvest Prices of Principal Crops",
+    "resource_id": "ad9f3b3a-4ef4-4979-90f1-08fe8fd1d7dc",
+    "department": "Directorate of Economics & Statistics",
+    "description": "Farm harvest prices reported annually for key crops used in MSP calculations.",
+    "update_frequency": "Annual",
+    "sample_filters": {
+      "agricultural_year": "2022-23",
+      "crop": "Wheat"
+    }
+  }
+]

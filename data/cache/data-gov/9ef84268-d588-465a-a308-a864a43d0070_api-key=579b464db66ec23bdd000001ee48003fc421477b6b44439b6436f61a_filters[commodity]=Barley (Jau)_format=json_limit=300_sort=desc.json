@@ -1,0 +1,485 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 30,
+    "count": 30,
+    "limit": "300",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Madhya Pradesh",
+        "district": "Tikamgarh",
+        "market": "Tikamgarh",
+        "commodity": "Barley (Jau)",
+        "variety": "Barley",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2200",
+        "max_price": "2200",
+        "modal_price": "2200"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ghazipur",
+        "market": "Gazipur",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2330",
+        "max_price": "2390",
+        "modal_price": "2360"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur",
+        "market": "Uttaripura",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2290",
+        "max_price": "2390",
+        "modal_price": "2340"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Varanasi",
+        "market": "Varanasi",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2340",
+        "max_price": "2415",
+        "modal_price": "2370"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Aligarh",
+        "market": "Aligarh",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2360",
+        "max_price": "2400",
+        "modal_price": "2380"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ghaziabad",
+        "market": "Ghaziabad",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2350",
+        "max_price": "2450",
+        "modal_price": "2400"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Gorakhpur",
+        "market": "Gorakhpur",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2340",
+        "max_price": "2390",
+        "modal_price": "2365"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Saharanpur",
+        "market": "Saharanpur",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2300",
+        "max_price": "2500",
+        "modal_price": "2420"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Kota",
+        "market": "Kota",
+        "commodity": "Barley (Jau)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2190",
+        "max_price": "2190",
+        "modal_price": "2190"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Tonk",
+        "market": "Dooni",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2140",
+        "max_price": "2190",
+        "modal_price": "2165"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Azamgarh",
+        "market": "Azamgarh",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2315",
+        "max_price": "2415",
+        "modal_price": "2365"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ghaziabad",
+        "market": "Ghaziabad",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2100",
+        "max_price": "2200",
+        "modal_price": "2150"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Lalitpur",
+        "market": "Lalitpur",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2220",
+        "max_price": "2300",
+        "modal_price": "2250"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Shamli",
+        "market": "Shamli",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2380",
+        "max_price": "2450",
+        "modal_price": "2410"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sonbhadra",
+        "market": "Robertsganj",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2240",
+        "max_price": "2450",
+        "modal_price": "2365"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Tikamgarh",
+        "market": "Palera",
+        "commodity": "Barley (Jau)",
+        "variety": "Barley",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1970",
+        "max_price": "2050",
+        "modal_price": "2050"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Dausa",
+        "market": "Dausa",
+        "commodity": "Barley (Jau)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2150",
+        "max_price": "2180",
+        "modal_price": "2165"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jaipur Rural",
+        "market": "Bassi",
+        "commodity": "Barley (Jau)",
+        "variety": "Other",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2100",
+        "max_price": "2100",
+        "modal_price": "2100"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Jalaun (Orai)",
+        "market": "Orai",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2300",
+        "max_price": "2400",
+        "modal_price": "2340"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur",
+        "market": "Kanpur(Grain)",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2280",
+        "max_price": "2380",
+        "modal_price": "2330"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mathura",
+        "market": "Mathura",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2380",
+        "max_price": "2415",
+        "modal_price": "2400"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Raebarelli",
+        "market": "Raibareilly",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2350",
+        "max_price": "2370",
+        "modal_price": "2360"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Chhatarpur",
+        "market": "Bijawar",
+        "commodity": "Barley (Jau)",
+        "variety": "Barley",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2205",
+        "max_price": "2250",
+        "modal_price": "2250"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Tonk",
+        "market": "Malpura",
+        "commodity": "Barley (Jau)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2100",
+        "max_price": "2130",
+        "modal_price": "2110"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Udaipur",
+        "market": "Udaipur (Grain)",
+        "commodity": "Barley (Jau)",
+        "variety": "Local",
+        "grade": "Non-FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2300",
+        "max_price": "2500",
+        "modal_price": "2400"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ballia",
+        "market": "Ballia",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2335",
+        "max_price": "2370",
+        "modal_price": "2355"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Jhansi",
+        "market": "Jhansi (Grain)",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2100",
+        "max_price": "2155",
+        "modal_price": "2145"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur",
+        "market": "Choubepur",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2320",
+        "max_price": "2420",
+        "modal_price": "2370"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kasganj",
+        "market": "Kasganj",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2370",
+        "max_price": "2400",
+        "modal_price": "2390"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mahoba",
+        "market": "Mahoba",
+        "commodity": "Barley (Jau)",
+        "variety": "Dara",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2200",
+        "max_price": "2300",
+        "modal_price": "2240"
+      }
+    ]
+  },
+  "expires_at": 1761835807
+}

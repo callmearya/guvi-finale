@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer Negotiation Assistant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC+6Q0R8zWjz7rR1JXUPBdvGPHGjkjpS9FQh0zZIuPbi38j7C0wPpn1hw4QxZ73Zmg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+  <script>
+    window.APP_CONFIG = {
+      resourceCatalog: {{ resource_catalog | tojson }},
+      defaultLanguage: "{{ default_language }}",
+      commodityOptions: {{ commodity_options | tojson }},
+      commodityMarketMap: {{ commodity_market_map | tojson }},
+      stateOptions: {{ state_options | tojson }},
+      stateDistrictMap: {{ state_district_map | tojson }}
+    };
+  </script>
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 id="hero-title">Farmer Negotiation Assistant</h1>
+      <p id="hero-subtitle">Compare mandi prices, forecast trends, and prepare negotiation points with transparent reasoning. Built on open agriculture datasets from data.gov.in.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card wizard" id="wizard">
+      <h2 class="wizard-title" id="wizard-title">Choose your language</h2>
+
+      <div class="wizard-step" data-step="language">
+        <p class="helper" id="language-helper">Pick the language you prefer for advice and voice guidance.</p>
+        <div class="button-grid" id="language-options"></div>
+      </div>
+
+      <div class="wizard-step" data-step="commodity" hidden>
+        <p class="helper" id="commodity-helper">Which crop are you planning to sell?</p>
+        <input id="commodity-search" class="search" type="search" placeholder="Search crop">
+        <div class="button-grid scrollable" id="commodity-options"></div>
+      </div>
+
+      <div class="wizard-step" data-step="market" hidden>
+        <p class="helper" id="market-helper">Choose the mandi you want to visit.</p>
+        <input id="market-search" class="search" type="search" placeholder="Search mandi">
+        <div class="button-grid scrollable" id="market-options"></div>
+      </div>
+
+      <div class="wizard-step" data-step="quantity" hidden>
+        <p class="helper" id="quantity-helper">How many quintals will you carry?</p>
+        <div class="button-grid" id="quantity-options"></div>
+        <label class="slider-label">
+          <span id="quantity-label">20 qtl</span>
+          <input type="range" id="quantity-slider" min="1" max="60" value="20">
+        </label>
+        <p class="helper" id="horizon-helper">How far ahead should we forecast?</p>
+        <div class="button-grid" id="horizon-options"></div>
+      </div>
+
+      <div class="wizard-step" data-step="location" hidden>
+        <p class="helper" id="location-helper">Tell us where you are to estimate transport cost.</p>
+        <label class="select-label">
+          <span id="state-label">State</span>
+          <select id="state-select"></select>
+        </label>
+        <label class="select-label">
+          <span id="district-label">District</span>
+          <select id="district-select"></select>
+        </label>
+        <button type="button" id="skip-location" class="secondary">Skip</button>
+      </div>
+
+      <div class="wizard-footer">
+        <div id="latency-pill" hidden><span id="latency-label">Response</span>: <span id="latency-value"></span> <span id="latency-unit">ms</span></div>
+        <button type="button" id="back-button" class="secondary" hidden>Back</button>
+        <button type="button" id="next-button" hidden>Next</button>
+        <button type="button" id="submit-button" hidden>Get advice</button>
+      </div>
+    </section>
+
+    <section id="results" class="card" hidden>
+      <div class="results-header">
+        <h2 id="result-title"></h2>
+        <p id="result-summary"></p>
+      </div>
+
+      <div class="grid-two">
+        <div>
+          <h3 id="key-numbers-heading">Key numbers</h3>
+          <ul id="snapshot-list" class="bullet"></ul>
+          <p class="metric"><strong>Recommended modal price:</strong> <span id="recommended-modal"></span></p>
+          <p class="metric"><strong>Expected net at farm-gate:</strong> <span id="recommended-net"></span></p>
+          <p class="metric" id="best-window"></p>
+        </div>
+        <div>
+          <h3 id="transport-heading">Transport &amp; supply</h3>
+          <ul class="bullet" id="context-list"></ul>
+          <h4 id="top-markets-heading">Top markets for this crop</h4>
+          <ol id="top-markets"></ol>
+        </div>
+      </div>
+
+      <section>
+        <h3 id="forecast-heading">Forecast outlook</h3>
+        <p id="forecast-note" class="helper" hidden></p>
+        <canvas id="forecast-chart" height="120"></canvas>
+      </section>
+
+      <section>
+        <h3 id="reasoning-heading">Reasoning &amp; warnings</h3>
+        <ul class="bullet" id="reasoning-list"></ul>
+        <div id="warnings" class="warning" hidden></div>
+      </section>
+
+      <section class="grid-three">
+        <div>
+          <h3 id="schemes-heading">Schemes</h3>
+          <ul class="bullet" id="schemes-list"></ul>
+        </div>
+        <div>
+          <h3 id="coops-heading">Cooperative leads</h3>
+          <ul class="bullet" id="coops-list"></ul>
+        </div>
+        <div>
+          <h3 id="postharvest-heading">Post-harvest care</h3>
+          <ul class="bullet" id="postharvest-list"></ul>
+        </div>
+      </section>
+
+      <section id="translated" hidden>
+        <h3 id="translated-heading">Translated farmer brief</h3>
+        <p id="translated-text"></p>
+      </section>
+    </section>
+
+    <section class="card">
+      <h2>Open agriculture resources (data.gov.in)</h2>
+      <div id="resource-cards" class="grid-resource"></div>
+      <p class="helper">Each resource is accessed via its <code>resource_id</code>; register on data.gov.in to obtain dataset-specific API keys when live polling is required.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed for sub-10 second responses using cached mandi data, ARIMA models, and offline fallbacks.</p>
+    </div>
+  </footer>
+</body>
+</html>

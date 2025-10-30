@@ -1,0 +1,713 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 49,
+    "count": 49,
+    "limit": "300",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "market": "Guntur",
+        "commodity": "Dry Chillies",
+        "variety": "Byadgi",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "15300",
+        "modal_price": "15000"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "market": "Guntur",
+        "commodity": "Dry Chillies",
+        "variety": "White",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "7800",
+        "modal_price": "6900"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Dry Chillies",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "22000",
+        "max_price": "24000",
+        "modal_price": "23000"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "market": "Guntur",
+        "commodity": "Dry Chillies",
+        "variety": "Red",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "15800",
+        "modal_price": "14700"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "market": "Guntur",
+        "commodity": "Dry Chillies",
+        "variety": "Red Top",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "15300",
+        "modal_price": "14500"
+      },
+      {
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "market": "Mahboob Manison",
+        "commodity": "Dry Chillies",
+        "variety": "2nd Sort",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "7000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Telangana",
+        "district": "Khammam",
+        "market": "Charla",
+        "commodity": "Dry Chillies",
+        "variety": "Dry Chillies",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "16200",
+        "max_price": "16400",
+        "modal_price": "16300"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "market": "Guntur",
+        "commodity": "Dry Chillies",
+        "variety": "Guntur",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "16000",
+        "modal_price": "14600"
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "market": "Guntur",
+        "commodity": "Dry Chillies",
+        "variety": "Red New",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "15000",
+        "modal_price": "14700"
+      },
+      {
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "market": "Mahboob Manison",
+        "commodity": "Dry Chillies",
+        "variety": "1st Sort",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "7500",
+        "max_price": "9000",
+        "modal_price": "8000"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Mandi",
+        "market": "Dhanotu (Mandi)",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "5000",
+        "modal_price": "4500"
+      },
+      {
+        "state": "Odisha",
+        "district": "Khurda",
+        "market": "Balugaon",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "4400",
+        "modal_price": "4200"
+      },
+      {
+        "state": "West Bengal",
+        "district": "Paschim Bardhaman",
+        "market": "Asansol",
+        "commodity": "Peas(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6300",
+        "max_price": "6550",
+        "modal_price": "6450"
+      },
+      {
+        "state": "Haryana",
+        "district": "Kurukshetra",
+        "market": "Thanesar",
+        "commodity": "Peas(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "9000",
+        "modal_price": "8000"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Shimoga",
+        "commodity": "Ginger(Dry)",
+        "variety": "Dry",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "19088",
+        "max_price": "19500",
+        "modal_price": "19294"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Hoshangabad",
+        "market": "Hoshangabad(F&V)",
+        "commodity": "Ginger(Dry)",
+        "variety": "Vegitable-fresh",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2390",
+        "max_price": "4110",
+        "modal_price": "3330"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Ajmer",
+        "market": "Ajmer(F&V)",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "4800",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Basti",
+        "market": "Basti",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4100",
+        "max_price": "4200",
+        "modal_price": "4150"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Lalitpur",
+        "market": "Lalitpur",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3385",
+        "max_price": "3420",
+        "modal_price": "3400"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mirzapur",
+        "market": "Mirzapur",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4100",
+        "max_price": "4200",
+        "modal_price": "4140"
+      },
+      {
+        "state": "Haryana",
+        "district": "Ambala",
+        "market": "Shahzadpur",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "3600",
+        "modal_price": "3600"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Indore",
+        "market": "Indore(F&V)",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1500",
+        "max_price": "5000",
+        "modal_price": "3000"
+      },
+      {
+        "state": "Punjab",
+        "district": "Muktsar",
+        "market": "Giddarbaha",
+        "commodity": "Ginger(Dry)",
+        "variety": "Dry",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "7500",
+        "modal_price": "7500"
+      },
+      {
+        "state": "Punjab",
+        "district": "Tarntaran",
+        "market": "Patti",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3200",
+        "max_price": "3600",
+        "modal_price": "3400"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur",
+        "market": "Kanpur(Grain)",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3900",
+        "max_price": "4000",
+        "modal_price": "3950"
+      },
+      {
+        "state": "Uttrakhand",
+        "district": "UdhamSinghNagar",
+        "market": "Khateema",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "3400",
+        "modal_price": "3200"
+      },
+      {
+        "state": "Uttrakhand",
+        "district": "UdhamSinghNagar",
+        "market": "Rudrapur",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "6000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "West Bengal",
+        "district": "Paschim Bardhaman",
+        "market": "Asansol",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6850",
+        "max_price": "7200",
+        "modal_price": "7000"
+      },
+      {
+        "state": "West Bengal",
+        "district": "Paschim Bardhaman",
+        "market": "Asansol",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5875",
+        "max_price": "6200",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Haryana",
+        "district": "Hissar",
+        "market": "Hansi",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "8000",
+        "modal_price": "7000"
+      },
+      {
+        "state": "Haryana",
+        "district": "Kurukshetra",
+        "market": "Shahabad",
+        "commodity": "Ginger(Dry)",
+        "variety": "Vegitable-fresh",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4200",
+        "max_price": "6000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Kullu",
+        "market": "Bhuntar",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "5500",
+        "modal_price": "5200"
+      },
+      {
+        "state": "Punjab",
+        "district": "Mohali",
+        "market": "Banur",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2890",
+        "max_price": "8890",
+        "modal_price": "2890"
+      },
+      {
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "market": "Mahboob Manison",
+        "commodity": "Ginger(Dry)",
+        "variety": "Big/Thick",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "5000",
+        "modal_price": "3500"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Jaunpur",
+        "market": "Jaunpur",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4100",
+        "max_price": "4200",
+        "modal_price": "4150"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Lalitpur",
+        "market": "Mehrauni",
+        "commodity": "Peas(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "5000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "West Bengal",
+        "district": "Birbhum",
+        "market": "Bolpur",
+        "commodity": "Ginger(Dry)",
+        "variety": "Big/Thick",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "8300",
+        "max_price": "8500",
+        "modal_price": "8400"
+      },
+      {
+        "state": "Haryana",
+        "district": "Ambala",
+        "market": "Naraingarh",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2600",
+        "max_price": "5000",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Kullu",
+        "market": "Kullu",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5500",
+        "max_price": "6000",
+        "modal_price": "5800"
+      },
+      {
+        "state": "Kerala",
+        "district": "Ernakulam",
+        "market": "Perumbavoor",
+        "commodity": "Ginger(Dry)",
+        "variety": "Dry",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "26000",
+        "max_price": "27000",
+        "modal_price": "26500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Mumbai",
+        "market": "Mumbai",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "31000",
+        "max_price": "46500",
+        "modal_price": "38750"
+      },
+      {
+        "state": "Punjab",
+        "district": "Ferozpur",
+        "market": "Firozepur City",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "8500",
+        "max_price": "9000",
+        "modal_price": "8750"
+      },
+      {
+        "state": "Punjab",
+        "district": "Gurdaspur",
+        "market": "Quadian",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4900",
+        "max_price": "5100",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Punjab",
+        "district": "Ludhiana",
+        "market": "Ludhiana",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "3500",
+        "modal_price": "3000"
+      },
+      {
+        "state": "Punjab",
+        "district": "Patiala",
+        "market": "Patran",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "6300",
+        "modal_price": "5490"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur Dehat",
+        "market": "Pukharayan",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4100",
+        "max_price": "4120",
+        "modal_price": "4110"
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Meerut",
+        "market": "Meerut",
+        "commodity": "Peas(Dry)",
+        "variety": "Peas(Dry)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4160",
+        "max_price": "4260",
+        "modal_price": "4210"
+      },
+      {
+        "state": "West Bengal",
+        "district": "Hooghly",
+        "market": "Sheoraphuly",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "7500",
+        "modal_price": "7200"
+      },
+      {
+        "state": "West Bengal",
+        "district": "Kolkata",
+        "market": "Bara Bazar (Posta Bazar)",
+        "commodity": "Ginger(Dry)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5500",
+        "max_price": "6000",
+        "modal_price": "5750"
+      }
+    ]
+  },
+  "expires_at": 1761835848
+}

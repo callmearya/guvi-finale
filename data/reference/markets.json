@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Lasalgaon",
+    "state": "Maharashtra",
+    "latitude": 20.1670,
+    "longitude": 74.2290,
+    "truck_rate_per_km": 6.2,
+    "last_mile_markup": 0.1
+  },
+  {
+    "name": "Vashi",
+    "state": "Maharashtra",
+    "latitude": 19.0657,
+    "longitude": 72.9967,
+    "truck_rate_per_km": 6.8,
+    "last_mile_markup": 0.15
+  },
+  {
+    "name": "Azadpur",
+    "state": "Delhi",
+    "latitude": 28.7094,
+    "longitude": 77.1780,
+    "truck_rate_per_km": 7.2,
+    "last_mile_markup": 0.18
+  },
+  {
+    "name": "Pune",
+    "state": "Maharashtra",
+    "latitude": 18.5167,
+    "longitude": 73.8563,
+    "truck_rate_per_km": 6.0,
+    "last_mile_markup": 0.08
+  },
+  {
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "latitude": 21.1458,
+    "longitude": 79.0882,
+    "truck_rate_per_km": 6.4,
+    "last_mile_markup": 0.12
+  },
+  {
+    "name": "Bengaluru (Yeshwanthpur)",
+    "state": "Karnataka",
+    "latitude": 13.0285,
+    "longitude": 77.5502,
+    "truck_rate_per_km": 7.0,
+    "last_mile_markup": 0.16
+  }
+]

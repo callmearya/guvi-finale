@@ -1,0 +1,17 @@
+{
+  "value": [
+    {
+      "state": "Uttar Pradesh",
+      "district": "Ambedkarnagar",
+      "market": "Akbarpur",
+      "commodity": "Black Gram Dal (Urd Dal)",
+      "variety": "Black Gram Dal",
+      "grade": "FAQ",
+      "arrival_date": "30/10/2025",
+      "min_price": "9900",
+      "max_price": "10500",
+      "modal_price": "10140"
+    }
+  ],
+  "expires_at": 1761836054
+}

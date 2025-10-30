@@ -1,0 +1,281 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 13,
+    "count": 13,
+    "limit": "500",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3375",
+        "max_price": "3375",
+        "modal_price": "3375"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Arhar Dal(Tur Dal)",
+        "variety": "Arhar Dal(Tur)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "15000",
+        "max_price": "16000",
+        "modal_price": "15500"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Rice",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5400",
+        "max_price": "5400",
+        "modal_price": "5400"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Banana",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "4500",
+        "max_price": "5000",
+        "modal_price": "4750"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Bengal Gram(Gram)(Whole)",
+        "variety": "Desi (Whole)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "8500",
+        "max_price": "9000",
+        "modal_price": "8750"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Black Gram Dal (Urd Dal)",
+        "variety": "Black Gram Dal",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "13000",
+        "max_price": "14000",
+        "modal_price": "13500"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Green Gram Dal (Moong Dal)",
+        "variety": "Green Gram Dal",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "15000",
+        "max_price": "16000",
+        "modal_price": "15500"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Orange",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "30/10/2025",
+        "min_price": "15000",
+        "max_price": "16000",
+        "modal_price": "15500"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Dry Chillies",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "22000",
+        "max_price": "24000",
+        "modal_price": "23000"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Ginger(Green)",
+        "variety": "Green Ginger",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "3750"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Masur Dal",
+        "variety": "Masur Dal",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "11000",
+        "modal_price": "10500"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Onion",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "3750"
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "market": "Lamlong Bazaar",
+        "commodity": "Potato",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "3000",
+        "modal_price": "2750"
+      }
+    ]
+  },
+  "expires_at": 1761834995
+}

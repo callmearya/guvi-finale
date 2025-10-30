@@ -1,0 +1,449 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 27,
+    "count": 27,
+    "limit": "300",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Karnataka",
+        "district": "Chitradurga",
+        "market": "Chitradurga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "api",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "61229",
+        "max_price": "61669",
+        "modal_price": "61449"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Sagar",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Rashi",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "45599",
+        "max_price": "63099",
+        "modal_price": "61609"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chitradurga",
+        "market": "Chitradurga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Kempugotu",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "34009",
+        "max_price": "34410",
+        "modal_price": "34200"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Sagar",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Bilegotu",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "12989",
+        "max_price": "35099",
+        "modal_price": "34170"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Shimoga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "New Variety",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "48009",
+        "max_price": "64509",
+        "modal_price": "61509"
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "market": "Shillong",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "16000",
+        "max_price": "23000",
+        "modal_price": "19000"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chitradurga",
+        "market": "Chitradurga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Bette",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "40019",
+        "max_price": "40479",
+        "modal_price": "40269"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Bhadravathi",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Churu",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "18166",
+        "max_price": "20000",
+        "modal_price": "19083"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Sagar",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Chali",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "26299",
+        "max_price": "44100",
+        "modal_price": "43899"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Sagar",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Cqca",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "11099",
+        "max_price": "36899",
+        "modal_price": "34299"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Shimoga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Gorabalu",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "19019",
+        "max_price": "45701",
+        "modal_price": "42802"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Shimoga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Saraku",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "60599",
+        "max_price": "84596",
+        "modal_price": "83200"
+      },
+      {
+        "state": "Kerala",
+        "district": "Kannur",
+        "market": "Payyannur",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "40000",
+        "max_price": "43000",
+        "modal_price": "42000"
+      },
+      {
+        "state": "Goa",
+        "district": "South Goa",
+        "market": "Curchorem",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Red",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "36600",
+        "max_price": "36600",
+        "modal_price": "36600"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chamrajnagar",
+        "market": "Chamaraj Nagar",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "13000",
+        "max_price": "13000",
+        "modal_price": "13000"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Davangere",
+        "market": "Channagiri",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Rashi",
+        "grade": "Ref grade-1",
+        "arrival_date": "30/10/2025",
+        "min_price": "58279",
+        "max_price": "65821",
+        "modal_price": "61658"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Bhadravathi",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Pudi",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "13453",
+        "max_price": "25000",
+        "modal_price": "13700"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Sagar",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Kempugotu",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "21399",
+        "max_price": "40199",
+        "modal_price": "38419"
+      },
+      {
+        "state": "Kerala",
+        "district": "Ernakulam",
+        "market": "Perumbavoor",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Supari",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "35500",
+        "max_price": "36500",
+        "modal_price": "36000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Mumbai",
+        "market": "Mumbai",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "35000",
+        "max_price": "75500",
+        "modal_price": "55250"
+      },
+      {
+        "state": "Goa",
+        "district": "South Goa",
+        "market": "Curchorem",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Supari",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "37600",
+        "max_price": "37600",
+        "modal_price": "37600"
+      },
+      {
+        "state": "Goa",
+        "district": "South Goa",
+        "market": "Curchorem",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "White",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "42100",
+        "max_price": "42100",
+        "modal_price": "42100"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chitradurga",
+        "market": "Chitradurga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Rashi",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "60739",
+        "max_price": "61189",
+        "modal_price": "60999"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chitradurga",
+        "market": "Holalkere",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Rashi",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "30000",
+        "max_price": "68329",
+        "modal_price": "40438"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Sagar",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Sippegotu",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "15099",
+        "max_price": "24199",
+        "modal_price": "23769"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Shimoga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Bette",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "54000",
+        "max_price": "77582",
+        "modal_price": "70019"
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "market": "Shimoga",
+        "commodity": "Arecanut(Betelnut/Supari)",
+        "variety": "Rashi",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "46009",
+        "max_price": "66599",
+        "modal_price": "61509"
+      }
+    ]
+  },
+  "expires_at": 1761835799
+}

@@ -1,0 +1,689 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 47,
+    "count": 47,
+    "limit": "500",
+    "offset": "0",
+    "records": [
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Malli(Small)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "16000",
+        "modal_price": "13000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Sol",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "35000",
+        "max_price": "45000",
+        "modal_price": "40000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Surmali(Small)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "19000",
+        "max_price": "29000",
+        "modal_price": "24000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Hen",
+        "variety": "Boiler/Firm(White-Brown)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "35",
+        "max_price": "45",
+        "modal_price": "40"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Cauliflower",
+        "variety": "Cauliflower",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "4000",
+        "modal_price": "3200"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Potato",
+        "variety": "Potato",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1100",
+        "max_price": "1700",
+        "modal_price": "1500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Bata Putti",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "7000",
+        "modal_price": "6500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Hilsa",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "36000",
+        "max_price": "50000",
+        "modal_price": "43000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Rahu(Andhra)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "9500",
+        "max_price": "13500",
+        "modal_price": "11500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "White Dom",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "15000",
+        "modal_price": "13000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Brinjal",
+        "variety": "Brinjal",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2800",
+        "modal_price": "2450"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Capsicum",
+        "variety": "Capsicum",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "6000",
+        "modal_price": "5200"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Onion",
+        "variety": "Onion",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1000",
+        "max_price": "1600",
+        "modal_price": "1400"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Cock",
+        "variety": "Boiler/Firm(White)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "76",
+        "max_price": "100",
+        "modal_price": "88"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Black Dom",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "16000",
+        "modal_price": "13000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Chilwa",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "8000",
+        "max_price": "13000",
+        "modal_price": "10500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Halwa",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "25000",
+        "max_price": "35000",
+        "modal_price": "27500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Pangass",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "9000",
+        "modal_price": "8000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Soli",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "13500",
+        "max_price": "24000",
+        "modal_price": "19000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Zinga(Zambo-A)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "40000",
+        "max_price": "50000",
+        "modal_price": "45000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Rose(Loose))",
+        "variety": "Rose(Loose)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "12000",
+        "modal_price": "11000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Bitter gourd",
+        "variety": "Bitter Gourd",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "3800",
+        "modal_price": "3500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Katla (Small)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "7500",
+        "max_price": "12000",
+        "modal_price": "9500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Singhra(Big)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "20000",
+        "max_price": "30000",
+        "modal_price": "25000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Singhra(Small)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "20000",
+        "modal_price": "15000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Zinga(Zambo-B)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "35000",
+        "max_price": "45000",
+        "modal_price": "40000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Anthorium",
+        "variety": "Anthorium",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "30",
+        "max_price": "50",
+        "modal_price": "40"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "BOP",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "60",
+        "max_price": "80",
+        "modal_price": "70"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Jarbara",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4",
+        "max_price": "6",
+        "modal_price": "5"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Orchid",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "20",
+        "max_price": "28",
+        "modal_price": "24"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Raibel",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "500",
+        "max_price": "700",
+        "modal_price": "600"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Cabbage",
+        "variety": "Cabbage",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "3000",
+        "modal_price": "2500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Coriander(Leaves)",
+        "variety": "Coriander",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "8000",
+        "modal_price": "7000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Blue Dom",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "9000",
+        "max_price": "16000",
+        "modal_price": "12500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Katla(Big)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "11500",
+        "max_price": "20500",
+        "modal_price": "16000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Malli(Big)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "14500",
+        "max_price": "24500",
+        "modal_price": "19500"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Surmai(Big)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "29000",
+        "max_price": "39000",
+        "modal_price": "34000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Fish,Poultry & Egg Market, Gazipur",
+        "commodity": "Fish",
+        "variety": "Zinga(Zambo-C)",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "21000",
+        "max_price": "31000",
+        "modal_price": "26000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Lilly",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "20",
+        "max_price": "40",
+        "modal_price": "30"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Lotus",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10",
+        "max_price": "20",
+        "modal_price": "15"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Flower Market,Gazipur",
+        "commodity": "Marigold(loose)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "10",
+        "max_price": "20",
+        "modal_price": "15"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Bottle gourd",
+        "variety": "Bottle Gourd",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2600",
+        "modal_price": "2300"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Cucumbar(Kheera)",
+        "variety": "Cucumbar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1600",
+        "max_price": "2600",
+        "modal_price": "2300"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Peas Wet",
+        "variety": "Peas Wet",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "8000",
+        "max_price": "12000",
+        "modal_price": "11000"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Pumpkin",
+        "variety": "Pumpkin",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "3000",
+        "modal_price": "2600"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Raddish",
+        "variety": "Raddish",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "500",
+        "max_price": "900",
+        "modal_price": "800"
+      },
+      {
+        "state": "NCT of Delhi",
+        "district": "Delhi",
+        "market": "Keshopur",
+        "commodity": "Tomato",
+        "variety": "Tomato",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1200",
+        "max_price": "2500",
+        "modal_price": "2300"
+      }
+    ]
+  },
+  "expires_at": 1761834079
+}

@@ -1,0 +1,689 @@
+{
+  "value": {
+    "created": 1627939168,
+    "updated": 1761832849,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2025-10-30T14:00:49Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+      {
+        "name": "State",
+        "id": "state",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      },
+      {
+        "name": "Arrival_Date",
+        "id": "arrival_date",
+        "type": "date"
+      },
+      {
+        "name": "Min_x0020_Price",
+        "id": "min_price",
+        "type": "double"
+      },
+      {
+        "name": "Max_x0020_Price",
+        "id": "max_price",
+        "type": "double"
+      },
+      {
+        "name": "Modal_x0020_Price",
+        "id": "modal_price",
+        "type": "double"
+      }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+      "Agriculture",
+      "Agricultural Marketing"
+    ],
+    "target_bucket": {
+      "field": "9ef84268-d588-465a-a308-a864a43d0070",
+      "index": "daily_mandi_price",
+      "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+      {
+        "name": "State",
+        "id": "state.keyword",
+        "type": "keyword"
+      },
+      {
+        "name": "District",
+        "id": "district",
+        "type": "keyword"
+      },
+      {
+        "name": "Market",
+        "id": "market",
+        "type": "keyword"
+      },
+      {
+        "name": "Commodity",
+        "id": "commodity",
+        "type": "keyword"
+      },
+      {
+        "name": "Variety",
+        "id": "variety",
+        "type": "keyword"
+      },
+      {
+        "name": "Grade",
+        "id": "grade",
+        "type": "keyword"
+      }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 47,
+    "count": 47,
+    "limit": "300",
+    "offset": "0",
+    "records": [
+      {
+        "state": "Gujarat",
+        "district": "Banaskanth",
+        "market": "Deesa(Deesa Veg Yard)",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "3100",
+        "modal_price": "2800"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "market": "Dehgam(Rekhiyal)",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4075",
+        "max_price": "4375",
+        "modal_price": "4225"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Porbandar",
+        "market": "Porbandar",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "6000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Rajkot",
+        "market": "Gondal(Veg.market Gondal)",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1000",
+        "max_price": "9000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Dausa",
+        "market": "Dausa",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3850",
+        "max_price": "4251",
+        "modal_price": "4050"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "market": "Damnagar",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6550",
+        "max_price": "8000",
+        "modal_price": "7050"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "market": "Dehgam",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4125",
+        "max_price": "4425",
+        "modal_price": "4275"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Kheda",
+        "market": "Nadiyad(Piplag)",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "2500",
+        "modal_price": "2350"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Morbi",
+        "market": "Morbi",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "4000",
+        "modal_price": "3250"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Surat",
+        "market": "Songadh",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "7000",
+        "modal_price": "6500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Ahmednagar",
+        "market": "Shrirampur",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "8000",
+        "modal_price": "7500"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Surendranagar",
+        "market": "Vadhvan",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "6500",
+        "modal_price": "5250"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Jalgaon",
+        "market": "Bhusaval",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "7000",
+        "modal_price": "7000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Jalgaon",
+        "market": "Jalgaon",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "6000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nagpur",
+        "market": "Hingna",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "2000",
+        "max_price": "4000",
+        "modal_price": "3103"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nashik",
+        "market": "Nasik",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4500",
+        "max_price": "7000",
+        "modal_price": "5500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Raigad",
+        "market": "Panvel",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "10000",
+        "max_price": "12000",
+        "modal_price": "11000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Sholapur",
+        "market": "Akluj",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5500",
+        "max_price": "13000",
+        "modal_price": "9000"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Beawar",
+        "market": "Beawar",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4100",
+        "max_price": "4500",
+        "modal_price": "4300"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Ganganagar",
+        "market": "Suratgarh",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3600",
+        "max_price": "4530",
+        "modal_price": "4425"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banaskanth",
+        "market": "Bhabhar",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4105",
+        "max_price": "4750",
+        "modal_price": "4427"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Surat",
+        "market": "Songadh(Badarpada)",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "7000",
+        "modal_price": "6500"
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Burhanpur",
+        "market": "Burhanpur(F&V)",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "2500",
+        "max_price": "4000",
+        "modal_price": "3500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Chattrapati Sambhajinagar",
+        "market": "Chattrapati Sambhajinagar",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "9000",
+        "modal_price": "7000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Pune",
+        "market": "Khed(Chakan)",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "8000",
+        "modal_price": "7000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Pune",
+        "market": "Pune",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "4000",
+        "max_price": "10000",
+        "modal_price": "7000"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Churu",
+        "market": "Sadulpur",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "3750"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Ahmedabad",
+        "market": "Ahmedabad",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "1500",
+        "max_price": "4000",
+        "modal_price": "3650"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gir Somnath",
+        "market": "Talalagir",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "7000",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Surat",
+        "market": "Songadh(Umrada)",
+        "commodity": "Guar",
+        "variety": "Guaar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "7000",
+        "modal_price": "6500"
+      },
+      {
+        "state": "Haryana",
+        "district": "Hissar",
+        "market": "Adampur",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3000",
+        "max_price": "4450",
+        "modal_price": "4000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Ahmednagar",
+        "market": "Rahata",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "10000",
+        "modal_price": "7500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nagpur",
+        "market": "Nagpur",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5500",
+        "max_price": "6000",
+        "modal_price": "5750"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Pune",
+        "market": "Pune(Moshi)",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "1500",
+        "max_price": "2000",
+        "modal_price": "1750"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Ratnagiri",
+        "market": "Ratnagiri (Nachane)",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "6000",
+        "max_price": "7000",
+        "modal_price": "6500"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Satara",
+        "market": "Vai",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "7000",
+        "max_price": "9000",
+        "modal_price": "8000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Sholapur",
+        "market": "Solapur",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "5000",
+        "max_price": "14000",
+        "modal_price": "9000"
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Thane",
+        "market": "Kalyan",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "Local",
+        "arrival_date": "30/10/2025",
+        "min_price": "6500",
+        "max_price": "8000",
+        "modal_price": "7250"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jaipur Rural",
+        "market": "Sambhar (Kishangarh renwal)",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4400",
+        "max_price": "4420",
+        "modal_price": "4410"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Patan",
+        "market": "Siddhpur",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Split",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3950",
+        "max_price": "3950",
+        "modal_price": "3950"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banaskanth",
+        "market": "Dhanera",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "3750",
+        "max_price": "4555",
+        "modal_price": "4180"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Morbi",
+        "market": "Halvad",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4060",
+        "max_price": "4450",
+        "modal_price": "4275"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Balotra",
+        "market": "Balotra",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4400",
+        "max_price": "4500",
+        "modal_price": "4450"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Kachchh",
+        "market": "Rapar",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Whole",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "0",
+        "max_price": "4255",
+        "modal_price": "4255"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Barmer",
+        "market": "Barmer",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4700",
+        "max_price": "4750",
+        "modal_price": "4725"
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Sikar",
+        "market": "Palsana",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4450",
+        "max_price": "4550",
+        "modal_price": "4500"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banaskanth",
+        "market": "Thara",
+        "commodity": "Guar Seed(Cluster Beans Seed)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "30/10/2025",
+        "min_price": "4480",
+        "max_price": "4660",
+        "modal_price": "4570"
+      }
+    ]
+  },
+  "expires_at": 1761835870
+}

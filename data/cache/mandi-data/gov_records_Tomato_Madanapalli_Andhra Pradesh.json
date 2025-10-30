@@ -1,0 +1,29 @@
+{
+  "value": [
+    {
+      "state": "Andhra Pradesh",
+      "district": "Chittor",
+      "market": "Madanapalli",
+      "commodity": "Tomato",
+      "variety": "Local",
+      "grade": "FAQ",
+      "arrival_date": "30/10/2025",
+      "min_price": "1900",
+      "max_price": "2300",
+      "modal_price": "2200"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Chittor",
+      "market": "Madanapalli",
+      "commodity": "Tomato",
+      "variety": "Other",
+      "grade": "FAQ",
+      "arrival_date": "30/10/2025",
+      "min_price": "1300",
+      "max_price": "1800",
+      "modal_price": "1600"
+    }
+  ],
+  "expires_at": 1761830596
+}

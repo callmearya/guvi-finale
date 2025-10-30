@@ -1,0 +1,17 @@
+{
+  "value": {
+    "method": "sarimax",
+    "points": [
+      {
+        "date": "2016-12-01",
+        "price": -340.42,
+        "low": -1303.93,
+        "high": 623.08
+      }
+    ],
+    "aic": 8.0,
+    "bic": null,
+    "sample_size": 27
+  },
+  "expires_at": 1761868404
+}

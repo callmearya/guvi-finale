@@ -1,0 +1,53 @@
+[
+  {
+    "scheme": "PM-KISAN",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Income support of INR 6,000 per year paid in three equal instalments directly into farmer bank accounts.",
+    "eligibility": "Small and marginal landholding farmers with valid records.",
+    "how_to_apply": "Register with state agriculture department or Common Service Centre with Aadhaar, bank passbook, land records.",
+    "official_url": "https://pmkisan.gov.in/",
+    "languages": {
+      "en": "PM-KISAN gives INR 6,000 annually in three instalments to eligible farmers via DBT.",
+      "hi": "पीएम-किसान के तहत योग्य किसानों को हर साल डीबीटी से 6,000 रुपये तीन किश्तों में मिलते हैं।",
+      "mr": "पीएम-किसान योजनेत पात्र शेतकऱ्यांना दरवर्षी तीन हफ्त्यांत रुपये 6,000 थेट खात्यात मिळतात."
+    }
+  },
+  {
+    "scheme": "Pradhan Mantri Fasal Bima Yojana",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Crop insurance covering yield loss from natural calamities, pests and diseases with low farmer premium share.",
+    "eligibility": "All farmers growing notified crops in notified areas including sharecroppers and tenant farmers.",
+    "how_to_apply": "Enroll through banks, CSCs, or the PMFBY portal before sowing deadlines.",
+    "official_url": "https://pmfby.gov.in/",
+    "languages": {
+      "en": "PMFBY protects against crop loss from weather, pest or disease with subsidised premium.",
+      "hi": "पीएमएफबीवाई मौसम, कीट या रोग से फसल नुकसान पर प्रीमियम सब्सिडी के साथ सुरक्षा देती है।",
+      "mr": "पीएमएफबीवाय हवामान, किड किंवा रोगांमुळे होणारे पीक नुकसान अनुदानित प्रीमियमसह कव्हर करते."}
+  },
+  {
+    "scheme": "e-NAM",
+    "ministry": "Small Farmers Agribusiness Consortium",
+    "description": "Online trading platform connecting 1000+ mandis for transparent price discovery and distant bidding.",
+    "eligibility": "Registered APMC traders, commission agents, farmers having KYC.",
+    "how_to_apply": "Register on e-NAM portal or facilitation centre with Aadhaar and bank details.",
+    "official_url": "https://enam.gov.in/",
+    "languages": {
+      "en": "e-NAM lets farmers receive bids from mandis nationwide and compare prices instantly.",
+      "hi": "ई-नाम से किसान देशभर की मंडियों से बोली मंगाकर तुरंत दाम तुलना कर सकते हैं।",
+      "mr": "ई-नॅम प्लॅटफॉर्मने देशभरातील बाजारातून लिलाव बोल्या तत्काळ पाहता येतात."
+    }
+  },
+  {
+    "scheme": "Formation and Promotion of 10,000 FPOs",
+    "ministry": "Department of Agriculture Cooperation & Farmers Welfare",
+    "description": "Support package for Farmer Producer Organisations with equity grant, credit guarantee and cluster-based business services.",
+    "eligibility": "Registered farmer collectives with minimum member thresholds.",
+    "how_to_apply": "Apply through implementing agencies like SFAC, NABARD or NCDC with bylaws and bank details.",
+    "official_url": "https://sfacindia.com/",
+    "languages": {
+      "en": "Government funds FPO formation, provides equity grant up to INR 15 lakh and credit guarantee cover.",
+      "hi": "सरकार एफपीओ गठन पर 15 लाख रुपये तक की इक्विटी अनुदान और ऋण गारंटी देती है।",
+      "mr": "सरकार एफपीओ स्थापनासाठी 15 लाखांपर्यंत इक्विटी अनुदान व कर्ज हमी देते."
+    }
+  }
+]

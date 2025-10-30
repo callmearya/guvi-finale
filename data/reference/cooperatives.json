@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Nashik District Onion Growers Cooperative",
+    "state": "Maharashtra",
+    "focus": "Collective onion grading, storage and direct marketing",
+    "contact": "+91-253-2501218",
+    "notes": "Members access shared pack houses and storage to negotiate better prices at Lasalgaon and Pimpalgaon.",
+    "sources": ["https://www.ndox.in/"]
+  },
+  {
+    "name": "Mahagrapes",
+    "state": "Maharashtra",
+    "focus": "Export marketing support for grapes with cold chain assistance",
+    "contact": "info@mahagrapes.com",
+    "notes": "Provides pre-cooling, packhouse and export tie-ups for member farmers.",
+    "sources": ["https://mahagrapes.com/"]
+  },
+  {
+    "name": "Karnataka HOPCOMS",
+    "state": "Karnataka",
+    "focus": "Federation marketing fruits and vegetables across urban outlets",
+    "contact": "+91-80-26668638",
+    "notes": "Procures directly from farmers at transparent prices and sells through HOPCOMS counters.",
+    "sources": ["http://www.hopcomskarnataka.com/"]
+  }
+]

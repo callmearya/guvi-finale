@@ -1,0 +1,13 @@
+[
+  {"district": "Nashik", "state": "Maharashtra", "latitude": 19.9975, "longitude": 73.7898},
+  {"district": "Pune", "state": "Maharashtra", "latitude": 18.5204, "longitude": 73.8567},
+  {"district": "Nagpur", "state": "Maharashtra", "latitude": 21.1458, "longitude": 79.0882},
+  {"district": "Aurangabad", "state": "Maharashtra", "latitude": 19.8762, "longitude": 75.3433},
+  {"district": "Satara", "state": "Maharashtra", "latitude": 17.6805, "longitude": 74.0183},
+  {"district": "Ahmednagar", "state": "Maharashtra", "latitude": 19.0952, "longitude": 74.7496},
+  {"district": "Solapur", "state": "Maharashtra", "latitude": 17.6599, "longitude": 75.9064},
+  {"district": "Bengaluru Urban", "state": "Karnataka", "latitude": 12.9716, "longitude": 77.5946},
+  {"district": "Bengaluru Rural", "state": "Karnataka", "latitude": 13.1986, "longitude": 77.7066},
+  {"district": "Mysuru", "state": "Karnataka", "latitude": 12.2958, "longitude": 76.6394},
+  {"district": "Delhi", "state": "Delhi", "latitude": 28.7041, "longitude": 77.1025}
+]

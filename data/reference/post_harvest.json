@@ -1,0 +1,29 @@
+[
+  {
+    "commodity": "Onion",
+    "recommendations": [
+      "Cure bulbs under shade for 10-12 days; maintain neck tightness before storage.",
+      "Stack in ventilated racks or perforated crates to avoid moisture pockets.",
+      "Keep storage temperature between 25-30C with 65-70 percent relative humidity.",
+      "Avoid water contact after curing to prevent fungal rot."
+    ]
+  },
+  {
+    "commodity": "Tomato",
+    "recommendations": [
+      "Harvest at breaker stage for distant markets and shade-pack within 4 hours.",
+      "Use plastic crates with soft liners to reduce bruising during transport.",
+      "Hydrocool with chlorinated water (100 ppm) to extend shelf life by 2-3 days.",
+      "Stack boxes up to five layers to maintain ventilation in transit."
+    ]
+  },
+  {
+    "commodity": "Grapes",
+    "recommendations": [
+      "Pre-cool bunches to 2-4C before loading in reefer trucks for export routes.",
+      "Maintain sulphur dioxide pads inside boxes to control fungal growth.",
+      "Use food grade wax coating for domestic shipments beyond 400 km.",
+      "Adopt cluster bagging 20 days pre-harvest to reduce pest blemishes."
+    ]
+  }
+]
